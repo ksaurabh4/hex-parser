@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- SEO Meta Tags -->
+  <title>GPS Tracker Parser & JT808 GPS Protocol Analyzer</title>
+  <meta name="description" content="Decode hex strings from GPS trackers with our powerful GPS Tracker Parser and JT808 GPS Protocol Analyzer. Easily view and analyze GPS data." />
+  <meta name="keywords" content="GPS Tracker Parser, JT808 Parser, GPS Protocol Analyzer, Hex Analyzer, GPS Data" />
+  <meta name="author" content="Asyncronic" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="GPS Tracker Parser & JT808 GPS Protocol Analyzer" />
+  <meta property="og:description" content="Decode hex strings from GPS trackers with our powerful GPS Tracker Parser and JT808 GPS Protocol Analyzer. Easily view and analyze GPS data." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://parser.asyncronic.com/" />
+  <!-- <meta property="og:image" content="https://yourwebsite.com/path/to/og-image.jpg" /> -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GPS Tracker Parser & JT808 GPS Protocol Analyzer" />
+  <meta name="twitter:description" content="Decode hex strings from GPS trackers with our powerful GPS Tracker Parser and JT808 GPS Protocol Analyzer. Easily view and analyze GPS data." />
+  <!-- <meta name="twitter:image" content="https://yourwebsite.com/path/to/twitter-image.jpg" /> -->
+  
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>JT808 GPS Protocol Analyzer</h1>
+    </header>
+    
+    <main>
+      <section class="input-section">
+        <label for="protocolType">Select Protocol:</label>
+        <select id="protocolType">
+          <option value="JT808">JT808</option>
+          <!-- Add other protocols if needed -->
+        </select>
+        
+        <label for="hexInput">Hex Input:</label>
+        <textarea id="hexInput" rows="5" placeholder="Paste your hex string here"></textarea>
+        
+        <button id="analyzeBtn">Analyze</button>
+      </section>
+      
+      <section id="resultContainer">
+        <h3>Parsed Result:</h3>
+        <pre id="resultBox"></pre>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Asyncronic. All Rights Reserved.</p>
+    </footer>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

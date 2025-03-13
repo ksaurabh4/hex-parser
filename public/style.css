@@ -1,0 +1,94 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #eef2f3;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form element styling */
+select, textarea, button {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1em;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button styling */
+button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Tips message styling */
+.tips {
+  color: #e67e22;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* Result container styling */
+#resultContainer {
+  display: none; /* hidden by default */
+  margin-top: 20px;
+  padding: 20px;
+  background: #f7f9fa;
+  border-left: 5px solid #007BFF;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.95em;
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+}
